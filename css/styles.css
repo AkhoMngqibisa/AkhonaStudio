@@ -3,6 +3,11 @@ body {
   margin: 0;
 }
 
+body.theme-dark {
+  background: #181818;
+  color: white;
+}
+
 header {
   text-align: center;
   padding: 2rem 1rem 1rem;
