@@ -1,11 +1,18 @@
+:root {
+  --background: #f0f0f0;
+  --text-color: #333;
+}
+
 body {
+  background: var(--background);
+  color: var(--text-color);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
 }
 
 body.theme-dark {
-  background: #181818;
-  color: white;
+  --background: #181818;
+  --text-color: #f9f9f9;
 }
 
 header {
