@@ -41,12 +41,13 @@ header p {
   color: var(--text-color);
   border: solid;
   border-radius: 10px;
-  border-color: white;
+  border-color: var(--item);
   background-color: var(--item);
   box-shadow: 0 2px 6px var(--shadow);
 }
 
 .theme-toggle-button:hover {
-  color: var(--item);
+  color: var(--text-color);
   background-color: var(--background);
+  border: var(--background);
 }
