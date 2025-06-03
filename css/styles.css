@@ -77,3 +77,42 @@ header p {
   text-align: center;
   font-weight: 500;
 }
+
+.card-smiley {
+  width: 70px;
+  height: 70px;
+  background: #ffeb3b;
+  border-radius: 50%;
+  justify-self: center;
+  margin-top: 1rem;
+}
+
+.card-smiley::before,
+.card-smiley::after {
+  width: 10px;
+  content: "";
+  height: 10px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  left: 200px;
+}
+
+.card-smiley::before {
+    left: 15px;
+}
+
+.card-smiley::after {
+  right: 15px;
+}
+
+.card-smiley .mouth {
+  width: 30px;
+  height: 15px;
+  border-bottom: 3px solid #000;
+  position: relative;
+  top: 35px;
+  left: 52%;
+  transform: translateX(-50%);
+  border-radius: 0 0 15px 15px;
+}
