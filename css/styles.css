@@ -68,6 +68,10 @@ header p {
   border-radius: 20px;
 }
 
+.card:hover {
+  transform: scale(1.05);
+}
+
 .card .card-label {
   color: var(--text-color);
   text-align: center;
