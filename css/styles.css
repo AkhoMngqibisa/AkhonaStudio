@@ -51,3 +51,23 @@ header p {
   background-color: var(--background);
   border: var(--background);
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card {
+  width: 200px;
+  height: 100px;
+  padding: 2rem;
+  background-color: var(--item);
+  border-radius: 20px;
+}
+
+.card .card-label {
+  color: var(--text-color);
+}
