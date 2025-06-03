@@ -70,4 +70,6 @@ header p {
 
 .card .card-label {
   color: var(--text-color);
+  text-align: center;
+  font-weight: 500;
 }
