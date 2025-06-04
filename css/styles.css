@@ -122,8 +122,10 @@ header p {
 .card-sun {
   width: 70px;
   height: 70%;
-  background: #ffeb3b;
+  background: radial-gradient(circle, #ffd700 60%, #ffa500);
   border-radius: 50%;
   justify-self: center;
   margin-top: 1rem;
+  animation: rotate 6s linear infinite;
+  box-shadow: 0 0 20px 5px #ffd700;
 }
