@@ -118,3 +118,12 @@ header p {
   transform: translateX(-50%);
   border-radius: 0 0 15px 15px;
 }
+
+.card-sun {
+  width: 70px;
+  height: 70%;
+  background: #ffeb3b;
+  border-radius: 50%;
+  justify-self: center;
+  margin-top: 1rem;
+}
