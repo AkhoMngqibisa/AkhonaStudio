@@ -66,10 +66,11 @@ header p {
   padding: 2rem;
   background-color: var(--item);
   border-radius: 20px;
+  transition: transform 0.3s;
 }
 
 .card:hover {
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
 }
 
 .card .card-label {
@@ -90,16 +91,17 @@ header p {
 .card-smiley::before,
 .card-smiley::after {
   width: 10px;
-  content: "";
   height: 10px;
+  content: "";
   background: #000;
   border-radius: 50%;
   position: absolute;
-  left: 200px;
+  top: 320px;
+  left: 190px;
 }
 
 .card-smiley::before {
-    left: 15px;
+  left: 160px;
 }
 
 .card-smiley::after {
