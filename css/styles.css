@@ -129,3 +129,18 @@ header p {
   animation: rotate 6s linear infinite;
   box-shadow: 0 0 20px 5px #ffd700;
 }
+
+.ray {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  top: 270px;
+  left: 393px;
+  border-radius: 50%;
+  background: repeating-conic-gradient(
+    from 0deg,
+    #ffd700 0deg 10deg,
+    transparent 10deg 20deg
+  );
+  z-index: 0;
+}
