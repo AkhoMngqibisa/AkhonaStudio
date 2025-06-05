@@ -86,6 +86,7 @@ header p {
   border-radius: 50%;
   justify-self: center;
   margin-top: 1rem;
+  position: relative;
 }
 
 .card-smiley::before,
@@ -96,12 +97,12 @@ header p {
   background: #000;
   border-radius: 50%;
   position: absolute;
-  top: 320px;
-  left: 190px;
+  top: 20px;
+  left: 46px;
 }
 
 .card-smiley::before {
-  left: 160px;
+  left: 16px;
 }
 
 .card-smiley::after {
