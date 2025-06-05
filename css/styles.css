@@ -122,21 +122,21 @@ header p {
 
 .card-sun {
   width: 70px;
-  height: 70%;
+  height: 70px;
   background: radial-gradient(circle, #ffd700 60%, #ffa500);
   border-radius: 50%;
   justify-self: center;
   margin-top: 1rem;
   animation: rotate 6s linear infinite;
   box-shadow: 0 0 20px 5px #ffd700;
+  position: relative;
 }
 
 .ray {
   position: absolute;
-  width: 140px;
-  height: 140px;
-  top: 270px;
-  left: 393px;
+  width: 130px;
+  height: 130px;
+  right: -28px;
   border-radius: 50%;
   background: repeating-conic-gradient(
     from 0deg,
