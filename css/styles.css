@@ -130,6 +130,7 @@ header p {
   animation: rotate 6s linear infinite;
   box-shadow: 0 0 20px 5px #ffd700;
   position: relative;
+  top: 25px;
 }
 
 .ray {
@@ -144,4 +145,5 @@ header p {
     transparent 10deg 20deg
   );
   z-index: 0;
+  top: -30px;
 }
