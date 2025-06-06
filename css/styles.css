@@ -79,14 +79,19 @@ header p {
   font-weight: 500;
 }
 
-.card-smiley {
+.card-smiley,
+.card-sun,
+.card-rainbow {
   width: 70px;
   height: 70px;
-  background: #ffeb3b;
-  border-radius: 50%;
   justify-self: center;
   margin-top: 1rem;
   position: relative;
+}
+
+.card-smiley {
+  background: #ffeb3b;
+  border-radius: 50%;
 }
 
 .card-smiley::before,
@@ -121,15 +126,10 @@ header p {
 }
 
 .card-sun {
-  width: 70px;
-  height: 70px;
   background: radial-gradient(circle, #ffd700 60%, #ffa500);
   border-radius: 50%;
-  justify-self: center;
-  margin-top: 1rem;
   animation: rotate 6s linear infinite;
   box-shadow: 0 0 20px 5px #ffd700;
-  position: relative;
   top: 25px;
 }
 
