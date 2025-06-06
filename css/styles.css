@@ -156,3 +156,76 @@ header p {
     transform: rotate(360deg);
   }
 }
+
+.card-rainbow {
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+  width: 90vw;
+  height: 45vw;
+}
+
+.card-rainbow > div {
+  border-radius: 90vw 90vw 0 0;
+}
+
+.card-rainbow #red {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.card-rainbow #orange {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.card-rainbow #yellow {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.card-rainbow #green {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.card-rainbow #blue {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+
+.card-rainbow #indigo {
+  background-color: indigo;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.card-rainbow #violet {
+  background-color: violet;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 60px;
+  top: 60px;
+}
