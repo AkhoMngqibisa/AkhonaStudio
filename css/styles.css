@@ -161,12 +161,12 @@ header p {
   overflow: hidden;
   margin: auto;
   position: relative;
-  width: 90vw;
-  height: 45vw;
+  width: 1080px;
+  height: 540px;
 }
 
 .card-rainbow > div {
-  border-radius: 90vw 90vw 0 0;
+  border-radius: 1080px 1080px 0 0;
 }
 
 .card-rainbow #red {
