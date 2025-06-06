@@ -160,7 +160,6 @@ header p {
 .card-rainbow {
   overflow: hidden;
   margin: auto;
-  position: relative;
   width: 1080px;
   height: 540px;
 }
@@ -171,15 +170,15 @@ header p {
 
 .card-rainbow #red {
   background-color: red;
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
   position: absolute;
 }
 
 .card-rainbow #orange {
   background-color: orange;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 130px;
   position: absolute;
   left: 10px;
   top: 10px;
@@ -188,7 +187,7 @@ header p {
 .card-rainbow #yellow {
   background-color: yellow;
   width: 100px;
-  height: 100px;
+  height: 120px;
   position: absolute;
   left: 20px;
   top: 20px;
@@ -196,8 +195,8 @@ header p {
 
 .card-rainbow #green {
   background-color: green;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 110px;
   position: absolute;
   left: 30px;
   top: 30px;
@@ -205,7 +204,7 @@ header p {
 
 .card-rainbow #blue {
   background-color: blue;
-  width: 100px;
+  width: 60px;
   height: 100px;
   position: absolute;
   left: 40px;
@@ -214,8 +213,8 @@ header p {
 
 .card-rainbow #indigo {
   background-color: indigo;
-  width: 100px;
-  height: 100px;
+  width: 40px;
+  height: 90px;
   position: absolute;
   left: 50px;
   top: 50px;
@@ -223,8 +222,8 @@ header p {
 
 .card-rainbow #violet {
   background-color: violet;
-  width: 100px;
-  height: 100px;
+  width: 20px;
+  height: 80px;
   position: absolute;
   left: 60px;
   top: 60px;
