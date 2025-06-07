@@ -85,7 +85,7 @@ header p {
   width: 70px;
   height: 70px;
   justify-self: center;
-  margin-top: 1rem;
+  margin-top: 1rem !important;
   position: relative;
 }
 
@@ -162,6 +162,8 @@ header p {
   margin: auto;
   width: 1080px;
   height: 540px;
+  margin-left: 2rem;
+  margin-top: 2rem !important;
 }
 
 .card-rainbow > div {
