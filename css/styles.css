@@ -239,7 +239,8 @@ header p {
   margin-top: 2rem!important;
 }
 
-.card-switch #bulb {
+.card-switch #switch-toggle {
+  display: none;
 }
 
 .card-switch #holder {
@@ -257,4 +258,5 @@ header p {
   position: relative;
   left: 100px;
   bottom: -25px;
+  cursor: pointer;
 }
