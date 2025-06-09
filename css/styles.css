@@ -249,3 +249,12 @@ header p {
   bottom: -4px;
   left: 16px;
 }
+
+.card-switch #switch {
+  background-color: black;
+  width: 20px;
+  height: 30px;
+  position: relative;
+  left: 100px;
+  bottom: -25px;
+}
