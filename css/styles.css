@@ -81,7 +81,8 @@ header p {
 
 .card-smiley,
 .card-sun,
-.card-rainbow {
+.card-rainbow,
+.card-switch {
   width: 70px;
   height: 70px;
   justify-self: center;
@@ -230,4 +231,10 @@ header p {
   position: absolute;
   left: 60px;
   top: 60px;
+}
+
+.card-switch {
+  background: radial-gradient(circle, #ffd700 50%, #ffa500);
+  border-radius: 50%;
+  margin-top: 2rem I !important;
 }
