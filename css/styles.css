@@ -249,8 +249,8 @@ header p {
 
 .card-switch #switch-toggle-container {
   background-color: black;
-  width: 20px;
-  height: 30px;
+  width: 15px;
+  height: 25px;
   position: relative;
   left: 170px;
   bottom: 55px;
