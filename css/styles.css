@@ -82,7 +82,7 @@ header p {
 .card-smiley,
 .card-sun,
 .card-rainbow,
-.card-switch #bulb{
+.card-switch #bulb {
   width: 70px;
   height: 70px;
   justify-self: center;
@@ -233,10 +233,10 @@ header p {
   top: 60px;
 }
 
-.card-switch #bulb{
+.card-switch #bulb {
   background: radial-gradient(circle, #e7e7e2 50%, #c4c2b8);
   border-radius: 50%;
-  margin-top: 2rem!important;
+  margin-top: 2rem !important;
 }
 
 .card-switch #holder {
@@ -246,21 +246,30 @@ header p {
   bottom: 9px;
   right: -78px;
 }
-/* 
-.card-switch #switch-toggle {
-  display: none;
-}
-.card-switch #switch {
+
+.card-switch #switch-toggle-container {
   background-color: black;
   width: 20px;
   height: 30px;
   position: relative;
-  left: 100px;
-  bottom: -25px;
+  left: 170px;
+  bottom: 55px;
   cursor: pointer;
 }
 
-#switch-toggle:checked + div .card-switch{
-  background: radial-gradient(circle, #ffd700 50%, #ffa500);
-  /* box-shadow: 0 0 40px 15px #ffd700; */
-} */
+.card-switch #switch input[type="checkbox"] {
+  /* display: none; */
+}
+
+.card-switch #switch-toggle {
+  /* display: none; */
+}
+
+#switch-toggle:checked + #switch::before {
+  transform: translateX(30px);
+}
+
+#switch-toggle:checked ~ #bulb {
+  background: #ffeb3b;
+  box-shadow: 0 0 40px 15px #ffeb3b;
+}
