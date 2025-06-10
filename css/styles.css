@@ -258,11 +258,11 @@ header p {
 }
 
 .card-switch #switch input[type="checkbox"] {
-  /* display: none; */
+  display: none;
 }
 
 .card-switch #switch-toggle {
-  /* display: none; */
+  display: none;
 }
 
 #switch-toggle:checked + #switch::before {
