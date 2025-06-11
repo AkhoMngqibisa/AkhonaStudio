@@ -289,3 +289,8 @@ header p {
   top: 50px;
   border: 1px solid black;
 }
+
+.card-bounce #ball:hover {
+  background-color: rgb(216, 78, 106);
+  transform: translateY(-50px);
+}
