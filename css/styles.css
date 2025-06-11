@@ -292,5 +292,6 @@ header p {
 
 .card-bounce #ball:hover {
   background-color: rgb(216, 78, 106);
+  transition: 0.5s;
   transform: translateY(-50px);
 }
