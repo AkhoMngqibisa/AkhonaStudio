@@ -294,4 +294,14 @@ header p {
   background-color: rgb(216, 78, 106);
   transition: 0.5s;
   transform: translateY(-50px);
+  animation-name: ball-move-forward;
+  animation-duration: 5s;
+}
+
+@keyframes ball-move-forward {
+  25% {
+    background-color: rgb(216, 78, 106);
+    left: 100px;
+    top: 50px;
+  }
 }
