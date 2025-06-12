@@ -280,7 +280,7 @@ header p {
   height: 25px;
   top: 50px;
   right: 90px;
-  background-color: crimson;
+  background-color: rgb(255, 0, 50);
   border-radius: 50%;
 }
 
@@ -292,7 +292,7 @@ header p {
 }
 
 .card-bounce #ball:hover {
-  background-color: rgb(216, 78, 106);
+  background-color: rgb(255, 30, 80);
   transition: 1s;
   animation-name: ball-move-forward;
   animation-duration: 15s;
@@ -304,27 +304,27 @@ header p {
 
 @keyframes ball-move-forward {
   0% {
-    background-color: greenyellow;
+    background-color: rgb(255, 60, 110);
     transform: translate(0, 0);
   }
 
   25% {
-    background-color: blueviolet;
-    transform: translate(50px, -30px);
+    background-color: rgb(255, 90, 140);
+    transform: translate(80px, -30px);
   }
 
   50% {
-    background-color: rgb(240, 14, 221);
-    transform: translate(100px, 0);
+    background-color: rgb(255, 120, 170);
+    transform: translate(160px, 0);
   }
 
   75% {
-    background-color: orange;
-    transform: translateX(50px, -30px);
+    background-color: rgb(255, 150, 200);
+    transform: translateX(80px, -30px);
   }
 
   100% {
-    background-color: darkgreen;
+    background-color: rgb(255, 180, 230);
     transform: translate(0, 0);
   }
 }
