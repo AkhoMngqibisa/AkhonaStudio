@@ -279,7 +279,7 @@ header p {
   width: 25px;
   height: 25px;
   top: 50px;
-  right: 90px ;
+  right: 90px;
   background-color: crimson;
   border-radius: 50%;
 }
@@ -293,9 +293,38 @@ header p {
 
 .card-bounce #ball:hover {
   background-color: rgb(216, 78, 106);
-  transition: 0.5s;
-  transform: translateY(-50px);
+  transition: 1s;
   animation-name: ball-move-forward;
-  animation-duration: 5s;
+  animation-duration: 15s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 }
 
+@keyframes ball-move-forward {
+  0% {
+    background-color: greenyellow;
+    transform: translate(0, 0);
+  }
+
+  25% {
+    background-color: blueviolet;
+    transform: translate(50px, -30px);
+  }
+
+  50% {
+    background-color: rgb(240, 14, 221);
+    transform: translate(100px, 0);
+  }
+
+  75% {
+    background-color: orange;
+    transform: translateX(50px, -30px);
+  }
+
+  100% {
+    background-color: darkgreen;
+    transform: translate(0, 0);
+  }
+}
