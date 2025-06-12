@@ -295,7 +295,7 @@ header p {
   background-color: rgb(255, 30, 80);
   transition: 1s;
   animation-name: ball-move-forward;
-  animation-duration: 15s;
+  animation-duration: 5s;
   animation-delay: 0.5s;
   animation-iteration-count: 2;
   animation-direction: alternate;
