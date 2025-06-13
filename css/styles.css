@@ -339,7 +339,7 @@ header p {
 }
 
 .card-alien .eye {
-  width: 16px;
+  width: 20px;
   height: 40px;
   background-color: black;
   position: absolute;
@@ -349,11 +349,13 @@ header p {
 }
 
 .card-alien #left {
-  left: 25px;
-  transform: rotate(-15deg);
+  left: 10px;
+  top: 30px;
+  transform: rotate(-30deg);
 }
 
 .card-alien #right {
-  right: 25px;
-  transform: rotate(15deg);
+  right: 10px;
+  top: 30px;
+  transform: rotate(30deg);
 }
