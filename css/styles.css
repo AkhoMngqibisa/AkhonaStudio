@@ -359,3 +359,15 @@ header p {
   top: 30px;
   transform: rotate(30deg);
 }
+
+.card-alien #mouth {
+  width: 40px;
+  height: 10px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 3px solid black;
+  border-radius: 0 0 50% 50%;
+  opacity: 0.5;
+}
