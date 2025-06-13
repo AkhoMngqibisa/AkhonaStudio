@@ -338,11 +338,12 @@ header p {
   box-shadow: 0 0 30px #69aa28;
 }
 
-.card-alien #eye {
+.card-alien .eye {
   width: 16px;
   height: 40px;
   background-color: black;
   position: absolute;
   top: 50px;
   border-radius: 50% 50% 50% 50% / 70% 70% 30% 30%;
+  box-shadow: 0 0 10px #000;
 }
