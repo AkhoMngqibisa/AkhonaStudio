@@ -347,3 +347,13 @@ header p {
   border-radius: 50% 50% 50% 50% / 70% 70% 30% 30%;
   box-shadow: 0 0 10px #000;
 }
+
+.card-alien #left {
+  left: 25px;
+  transform: rotate(-15deg);
+}
+
+.card-alien #right {
+  right: 25px;
+  transform: rotate(15deg);
+}
