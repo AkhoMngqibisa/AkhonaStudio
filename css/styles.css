@@ -390,3 +390,11 @@ header p {
   border-radius: 50px;
   background-color: burlywood;
 }
+
+.card-ninja .left-eye {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  background-color: #000;
+  border-radius: 50%;
+}
