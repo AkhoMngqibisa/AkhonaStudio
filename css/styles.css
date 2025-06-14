@@ -84,7 +84,8 @@ header p {
 .card-rainbow,
 .card-switch #bulb,
 .card-bounce #ball,
-.card-alien #head {
+.card-alien #head,
+.card-ninja #head {
   width: 70px;
   height: 70px;
   justify-self: center;
@@ -371,4 +372,11 @@ header p {
   border-bottom: 3px solid black;
   border-radius: 0 0 50% 50%;
   opacity: 0.5;
+}
+
+.card-ninja #head{
+  width: 90px;
+  height: 100px;
+  background-color: burlywood;
+  border-radius: 50px;
 }
