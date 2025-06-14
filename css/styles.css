@@ -374,9 +374,16 @@ header p {
   opacity: 0.5;
 }
 
-.card-ninja #head{
+.card-ninja #head {
   width: 90px;
   height: 100px;
-  background-color: burlywood;
+  background-color: grey;
   border-radius: 50px;
+}
+
+.card-ninja #face {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: burlywood;
 }
