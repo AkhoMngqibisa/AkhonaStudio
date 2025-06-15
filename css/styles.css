@@ -410,3 +410,13 @@ header p {
   bottom: 4px;
   left: 50px;
 }
+
+.card-ninja .mask {
+  width: 28px;
+  height: 15px;
+  position: relative;
+  background-color: grey;
+  left: 26px;
+  top: 0px;
+  border-radius: 30%;
+}
