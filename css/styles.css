@@ -400,3 +400,13 @@ header p {
   top: 10px;
   left: 15px;
 }
+
+.card-ninja .right-eye {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  background-color: #000;
+  border-radius: 50%;
+  top: 0px;
+  left: 50px;
+}
