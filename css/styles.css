@@ -392,8 +392,8 @@ header p {
 }
 
 .card-ninja .left-eye {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   position: relative;
   background-color: #000;
   border-radius: 50%;
@@ -402,11 +402,11 @@ header p {
 }
 
 .card-ninja .right-eye {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   position: relative;
   background-color: #000;
   border-radius: 50%;
-  top: 0px;
+  bottom: 4px;
   left: 50px;
 }
