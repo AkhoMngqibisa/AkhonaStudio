@@ -397,4 +397,6 @@ header p {
   position: relative;
   background-color: #000;
   border-radius: 50%;
+  top: 10px;
+  left: 15px;
 }
