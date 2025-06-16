@@ -386,7 +386,7 @@ header p {
 }
 
 .card-alien #left {
-  animation: blink;
+  animation: blink 1s;
 }
 
 .card-ninja #head {
