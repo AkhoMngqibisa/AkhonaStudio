@@ -374,6 +374,21 @@ header p {
   opacity: 0.5;
 }
 
+@keyframes blink {
+  0%,
+  20%,
+  100% {
+    height: 20px;
+  }
+  10% {
+    height: 35px;
+  }
+}
+
+.card-alien #left {
+  animation: blink;
+}
+
 .card-ninja #head {
   width: 90px;
   height: 100px;
