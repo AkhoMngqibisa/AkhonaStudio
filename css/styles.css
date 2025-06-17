@@ -394,7 +394,7 @@ header p {
   transform-origin: center top;
 }
 
-.card-alien #left:hover{
+.card-alien #head:hover #left {
   animation: unset;
 }
 
