@@ -394,6 +394,10 @@ header p {
   transform-origin: center top;
 }
 
+.card-alien #left:hover{
+  animation: unset;
+}
+
 @keyframes nod {
   0%,
   100% {
