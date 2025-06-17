@@ -398,6 +398,10 @@ header p {
   animation: unset;
 }
 
+.card-alien #head:hover .eye {
+  background-color: red;
+}
+
 @keyframes nod {
   0%,
   100% {
