@@ -389,6 +389,22 @@ header p {
   animation: blink 2s infinite;
 }
 
+.card-alien #head:hover {
+  animation: nod 3s infinite ease-in-out;
+  transform-origin: center top;
+}
+
+@keyframes nod {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+}
+
 .card-ninja #head {
   width: 90px;
   height: 100px;
