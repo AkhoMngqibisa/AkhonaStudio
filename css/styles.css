@@ -373,6 +373,7 @@ header p {
   border-bottom: 3px solid black;
   border-radius: 0 0 50% 50%;
   opacity: 0.5;
+  animation: smile 2s infinite;
 }
 
 @keyframes blink {
@@ -383,6 +384,13 @@ header p {
   }
   80% {
     height: 20px;
+  }
+}
+
+@keyframes smile {
+  80% {
+    left: 20%;
+    transform: rotate(20deg);
   }
 }
 
