@@ -397,6 +397,7 @@ header p {
 .card-alien #head:hover {
   animation: nod 3s infinite ease-in-out;
   transform-origin: center top;
+  box-shadow: 0 0 30px red;
 }
 
 .card-alien #head:hover #left {
