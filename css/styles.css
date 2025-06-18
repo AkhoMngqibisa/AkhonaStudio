@@ -353,6 +353,7 @@ header p {
   top: 30px;
   transform: rotate(-20deg);
   border-radius: 10% 100% 20% 100%;
+  animation: blink 2s infinite;
 }
 
 .card-alien #right {
@@ -383,10 +384,6 @@ header p {
   80% {
     height: 20px;
   }
-}
-
-.card-alien #left {
-  animation: blink 2s infinite;
 }
 
 .card-alien #head:hover {
