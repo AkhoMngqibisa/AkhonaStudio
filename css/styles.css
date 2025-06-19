@@ -340,11 +340,12 @@ header p {
   animation: smile 2s infinite;
 }
 
-.card-alien #mouth .tooth{
+.card-alien #mouth .tooth {
   width: 10px;
   height: 15px;
   background: white;
   position: absolute;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
 .card-alien #head:hover {
