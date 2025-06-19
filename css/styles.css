@@ -340,6 +340,13 @@ header p {
   animation: smile 2s infinite;
 }
 
+.card-alien #mouth .tooth{
+  width: 10px;
+  height: 15px;
+  background: white;
+  position: absolute;
+}
+
 .card-alien #head:hover {
   animation: nod 3s infinite ease-in-out;
   transform-origin: center top;
