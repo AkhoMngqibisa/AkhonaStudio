@@ -377,6 +377,10 @@ header p {
   background-color: red;
 }
 
+.card-alien #head:hover .tooth {
+  opacity: 1;
+}
+
 .card-ninja #head {
   width: 90px;
   height: 100px;
