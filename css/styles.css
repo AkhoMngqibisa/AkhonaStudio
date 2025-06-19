@@ -346,6 +346,15 @@ header p {
   background: white;
   position: absolute;
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  top: 0px;
+}
+
+.card-alien #mouth #left {
+  left: 0px;
+}
+
+.card-alien #mouth #right {
+  right: 0px;
 }
 
 .card-alien #head:hover {
