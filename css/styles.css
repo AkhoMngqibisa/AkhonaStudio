@@ -347,6 +347,8 @@ header p {
   position: absolute;
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   top: 0px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .card-alien #mouth #left {
