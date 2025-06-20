@@ -275,6 +275,8 @@ header p {
   right: 90px;
   background-color: rgb(255, 0, 50);
   border-radius: 50%;
+  z-index: 2;
+  animation: ball-jump 4s linear infinite;
 }
 
 .card-bounce #surface {
@@ -285,14 +287,14 @@ header p {
 }
 
 .card-bounce #ball:hover {
-  background-color: rgb(255, 30, 80);
+  background-color: orangered;
   transition: 1s;
-  animation-name: ball-move-forward;
-  animation-duration: 5s;
+  animation-name: ball-jump;
+  /* animation-duration: 5s;
   animation-delay: 0.5s;
   animation-iteration-count: 2;
   animation-direction: alternate;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out; */
 }
 
 .card-alien #head {
@@ -471,7 +473,7 @@ header p {
   }
 }
 
-@keyframes ball-move-forward {
+@keyframes ball-jump {
  
 }
 
