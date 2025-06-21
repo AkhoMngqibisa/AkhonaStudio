@@ -308,7 +308,7 @@ header p {
   animation-timing-function: ease-in-out; */
 }
 
-.card-bounce #obstacle1{
+.card-bounce #obstacle1 {
   animation-delay: 0s;
 }
 
@@ -517,6 +517,6 @@ header p {
     left: 100%;
   }
   100% {
-    left: -50px;
+    left: -5px;
   }
 }
