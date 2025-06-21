@@ -310,6 +310,12 @@ header p {
 
 .card-bounce #obstacle1 {
   animation-delay: 0s;
+  top: 70px;
+}
+
+.card-bounce #obstacle2 {
+  background-color: burlywood;
+  animation-delay: 5s;
 }
 
 .card-alien #head {
