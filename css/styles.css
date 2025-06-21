@@ -286,6 +286,7 @@ header p {
   top: 50px;
   left: 90px;
   z-index: 1;
+  animation: obstacle-move 4s infinite;
 }
 
 .card-bounce #surface {
@@ -305,6 +306,10 @@ header p {
   animation-iteration-count: 2;
   animation-direction: alternate;
   animation-timing-function: ease-in-out; */
+}
+
+.card-bounce #obstacle1{
+  animation-delay: 0s;
 }
 
 .card-alien #head {
@@ -504,5 +509,14 @@ header p {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes obstacle-move {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -50px;
   }
 }
