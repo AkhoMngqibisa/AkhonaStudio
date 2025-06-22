@@ -272,7 +272,7 @@ header p {
   width: 25px;
   height: 25px;
   top: 90px;
-  right: 90px;
+  right: 70px;
   background-color: rgb(255, 0, 50);
   border-radius: 50%;
   z-index: 2;
@@ -298,7 +298,7 @@ header p {
 
 .card-bounce #ball:hover {
   background-color: orangered;
-  transition: 1s;
+  transition: 4s;
   animation: ball-jump 4s linear infinite;
 }
 
