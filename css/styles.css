@@ -314,7 +314,8 @@ header p {
 }
 
 .card-bounce #obstacle2 {
-  animation-delay: 5s;
+  animation-delay: 4s;
+  background-color: bisque;
 }
 
 .card-alien #head {
