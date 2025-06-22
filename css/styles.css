@@ -284,9 +284,9 @@ header p {
   background-color: burlywood;
   position: relative;
   top: 50px;
-  left: 90px;
+  left: 181px;
   z-index: 1;
-  animation: obstacle-move 4s infinite;
+  animation: obstacle-move 5s infinite;
 }
 
 .card-bounce #surface {
@@ -519,7 +519,7 @@ header p {
 
 @keyframes obstacle-move {
   0% {
-    left: 100%;
+    left: 90%;
   }
   100% {
     left: -5px;
