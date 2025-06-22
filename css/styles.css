@@ -300,21 +300,15 @@ header p {
   background-color: orangered;
   transition: 1s;
   animation: ball-jump 4s linear infinite;
-
-  /* animation-duration: 5s;
-  animation-delay: 0.5s;
-  animation-iteration-count: 2;
-  animation-direction: alternate;
-  animation-timing-function: ease-in-out; */
 }
 
 .card-bounce #obstacle1 {
-  animation-delay: 0s;
+  animation-delay: 2s;
   top: 70px;
 }
 
 .card-bounce #obstacle2 {
-  animation-delay: 4s;
+  animation-delay: 5s;
   background-color: bisque;
 }
 
