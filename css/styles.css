@@ -452,6 +452,18 @@ header p {
   left: 25px;
 }
 
+.card-ninja .sword {
+  position: relative;
+  width: 10px;
+  height: 200px;
+  background-color: silver;
+  bottom: 220px;
+  border-radius: 10px 10px 0px 0px;
+  left: 20px;
+  transform-origin: bottom;
+  transform: rotate(60deg);
+}
+
 /***************************
         KEYFRAMES 
 ***************************/
