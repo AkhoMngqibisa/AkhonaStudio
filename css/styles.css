@@ -298,12 +298,6 @@ header p {
   border: 1px solid black;
 }
 
-/* .card-bounce #ball:hover {
-  background-color: orangered;
-  transition: 4s;
-  animation: ball-jump 6s linear infinite;
-} */
-
 .card-bounce #obstacle1 {
   animation-delay: 2s;
   top: 70px;
