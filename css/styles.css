@@ -463,6 +463,7 @@ header p {
   transform-origin: bottom;
   transform: rotate(55deg);
   z-index: 0;
+  animation: slash 2s ease-in-out infinite;
 }
 
 /***************************
@@ -527,5 +528,15 @@ header p {
   }
   100% {
     left: -5px;
+  }
+}
+
+@keyframes slash {
+  0%,
+  100% {
+    transform: rotate(55deg);
+  }
+  50% {
+    transform: rotate(45deg);
   }
 }
