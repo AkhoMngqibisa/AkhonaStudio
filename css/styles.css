@@ -477,6 +477,13 @@ header p {
   background-color: cadetblue;
 }
 
+.card-robot #head #eyes {
+  width: 100px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #000;
+}
+
 /***************************
         KEYFRAMES 
 ***************************/
