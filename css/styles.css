@@ -463,7 +463,10 @@ header p {
   transform-origin: bottom;
   transform: rotate(55deg);
   z-index: 0;
-  animation: slash 2s ease-in-out infinite;
+}
+
+.card-ninja .sword:hover{
+  animation: slash 3s ease-in-out infinite;
 }
 
 /***************************
