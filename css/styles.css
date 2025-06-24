@@ -85,7 +85,8 @@ header p {
 .card-switch #bulb,
 .card-bounce #ball,
 .card-alien #head,
-.card-ninja #head {
+.card-ninja #head,
+.card-robot #head {
   width: 70px;
   height: 70px;
   justify-self: center;
@@ -465,8 +466,15 @@ header p {
   z-index: 0;
 }
 
-.card-ninja .sword:hover{
+.card-ninja .sword:hover {
   animation: slash 3s ease-in-out infinite;
+}
+
+.card-robot #head {
+  width: 120px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: cadetblue;
 }
 
 /***************************
