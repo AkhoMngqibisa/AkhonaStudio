@@ -482,6 +482,7 @@ header p {
   height: 30px;
   border-radius: 30px;
   background-color: #000;
+  justify-self: center;
 }
 
 /***************************
