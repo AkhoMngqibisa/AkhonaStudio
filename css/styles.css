@@ -490,9 +490,18 @@ header p {
 .card-robot #head #eyes .eye {
   width: 10px;
   height: 10px;
-  position: relative;
+  position: absolute;
   background-color: yellow;
   border-radius: 50%;
+  top: 10px;
+}
+
+.card-robot #head #eyes .left-eye {
+  left: 20px;
+}
+
+.card-robot #head #eyes .right-eye {
+  right: 20px;
 }
 
 /***************************
