@@ -483,6 +483,8 @@ header p {
   border-radius: 30px;
   background-color: #000;
   justify-self: center;
+  position: relative;
+  top: 25px;
 }
 
 /***************************
