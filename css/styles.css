@@ -504,6 +504,14 @@ header p {
   right: 20px;
 }
 
+.card-robot #head #mouth {
+  width: 50px;
+  height: 25px;
+  position: absolute;
+  background-color: #000;
+  border-radius: 0px 0px 50px 50px;
+}
+
 /***************************
         KEYFRAMES 
 ***************************/
