@@ -487,6 +487,14 @@ header p {
   top: 25px;
 }
 
+.card-robot #head #eyes .eye {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
 /***************************
         KEYFRAMES 
 ***************************/
