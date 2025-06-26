@@ -296,7 +296,7 @@ header p {
   width: 200px;
   position: relative;
   top: 50px;
-  border: 1px solid black;
+  border: 1.5px solid black;
 }
 
 .card-bounce #obstacle1 {
