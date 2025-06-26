@@ -519,7 +519,9 @@ header p {
   height: 15px;
   position: absolute;
   background-color: palevioletred;
-  border-radius: 0px 50px 0px 0px;
+  border-radius: 0px 50px 0px 50px;
+  top: 10px;
+  left: 2px;
 }
 
 /***************************
