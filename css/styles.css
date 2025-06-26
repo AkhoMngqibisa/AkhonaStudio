@@ -518,7 +518,7 @@ header p {
   width: 30px;
   height: 15px;
   position: absolute;
-  background-color: palevioletred;
+  background-color: rgb(233, 8, 83);
   border-radius: 0px 50px 0px 50px;
   top: 10px;
   left: 2px;
