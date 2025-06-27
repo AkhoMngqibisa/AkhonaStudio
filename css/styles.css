@@ -527,8 +527,11 @@ header p {
 .card-robot .top {
   width: 30px;
   height: 20px;
+  position: relative;
   background-color: cadetblue;
   border-radius: 50px 50px 0px 0px;
+  top: 16px;
+  left: 80px;
 }
 
 /***************************
