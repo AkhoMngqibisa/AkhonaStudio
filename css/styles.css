@@ -542,6 +542,15 @@ header p {
   left: 95px;
 }
 
+.card-robot .connector{
+  width: 10px;
+  height: 10px;
+  position: relative;
+  background-color: black;
+  left: 91px;
+  border-radius: 50px;;
+}
+
 /***************************
         KEYFRAMES 
 ***************************/
