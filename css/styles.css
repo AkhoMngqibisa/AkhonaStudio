@@ -524,6 +524,13 @@ header p {
   left: 2px;
 }
 
+.card-robot .top {
+  width: 30px;
+  height: 20px;
+  background-color: cadetblue;
+  border-radius: 50px 50px 0px 0px;
+}
+
 /***************************
         KEYFRAMES 
 ***************************/
