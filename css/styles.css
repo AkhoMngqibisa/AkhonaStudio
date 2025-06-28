@@ -536,7 +536,7 @@ header p {
 
 .card-robot .line {
   width: 2px;
-  height: 30px;
+  height: 20px;
   position: relative;
   background-color: cadetblue;
   left: 95px;
